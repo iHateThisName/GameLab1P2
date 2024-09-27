@@ -422,6 +422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit
       objectReference: {fileID: 0}
+    - target: {fileID: 5936929724042559813, guid: 28b30e9f61ba5fd45842a47e4d5191af, type: 3}
+      propertyPath: scene
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 9019068137995773825, guid: 28b30e9f61ba5fd45842a47e4d5191af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.6473413
@@ -605,6 +609,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 415031552080278130, guid: 52f03e1e446d60d40a9c767243f68680, type: 3}
+      propertyPath: _isStartPosition
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1951466385444351720, guid: 52f03e1e446d60d40a9c767243f68680, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.430937
