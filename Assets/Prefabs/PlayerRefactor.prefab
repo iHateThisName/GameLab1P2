@@ -184,6 +184,7 @@ GameObject:
   - component: {fileID: 2266587213715963957}
   - component: {fileID: 5471147201740905839}
   - component: {fileID: 4189544631779694076}
+  - component: {fileID: 305407685593533005}
   m_Layer: 0
   m_Name: PlayerRefactor
   m_TagString: Player
@@ -336,6 +337,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 2266587213715963957}
   _timerPrefab: {fileID: 7741913074089581148, guid: fbd55d5142e06f7438b716b69b77888a, type: 3}
+--- !u!114 &305407685593533005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7179772475690628422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90736796c046d6f46b738a5ec264e5c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 8901886395936792467}
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  rayLength: 1
 --- !u!1 &8341395341186778141
 GameObject:
   m_ObjectHideFlags: 0
