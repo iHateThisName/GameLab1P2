@@ -82,7 +82,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &6581388549386042792
@@ -302,10 +302,10 @@ MonoBehaviour:
   RightWallCheckPoint: {fileID: 4646269854868525416}
   AllowJumpMask:
     serializedVersion: 2
-    m_Bits: 320
+    m_Bits: 0
   AllowWallJumpMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   AmplifyLayers:
   - Layer:
       serializedVersion: 2
