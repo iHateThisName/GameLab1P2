@@ -5,12 +5,12 @@ using UnityEngine;
 public class TimerScript : MonoBehaviour {
     [NonSerialized] public bool IsTimerRunning = false;
     private float _elapsedTime = 0f;
-    private TextMeshProUGUI _timerText;
+    private TMP_Text _timerText;
     [SerializeField] private Rigidbody2D _rigidbody;
+    [SerializeField] private GameObject _timerPrefab;
 
     private void Start() {
-        GameObject textObject = GameObject.FindGameObjectWithTag("TimerText");
-        _timerText = textObject.GetComponent<TextMeshProUGUI>();
+        _timerText = Instantiate(_timerPrefab).GetComponentInChildren<TMP_Text>();
     }
 
     private void Update() {
