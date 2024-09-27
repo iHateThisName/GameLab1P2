@@ -350,9 +350,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 8901886395936792467}
-  groundMask:
+  RotationMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 320
   rayLength: 1
 --- !u!1 &8341395341186778141
 GameObject:
