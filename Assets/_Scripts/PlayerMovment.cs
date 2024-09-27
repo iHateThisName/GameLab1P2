@@ -100,7 +100,7 @@ public class PlayerMovment : MonoBehaviour {
         }
 
         // Applyiing velocity
-        if (!_isWallJumping) {
+        if (!_isWallJumping && (!_isWalled || _isGrounded)) {
             _rb.velocity = new Vector2(Mathf.Lerp(_rb.velocity.x, Input.GetAxisRaw("Horizontal") * _currentSpeed, 0.2f), _rb.velocity.y);
         }
 

@@ -293,9 +293,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   JumpForce: 12
-  BaseSpeed: 1.5
+  BaseSpeed: 5
   MaxSpeed: 20
-  AccelerationTime: 1.2
+  AccelerationTime: 2
   MaxFallSpeed: -30
   GroundCheckPoint: {fileID: 1093471564657801787}
   LeftWallCheckPoint: {fileID: 3141329864457216884}
