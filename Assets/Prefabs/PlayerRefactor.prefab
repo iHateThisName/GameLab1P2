@@ -335,6 +335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 2266587213715963957}
+  _timerPrefab: {fileID: 7741913074089581148, guid: fbd55d5142e06f7438b716b69b77888a, type: 3}
 --- !u!1 &8341395341186778141
 GameObject:
   m_ObjectHideFlags: 0
