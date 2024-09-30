@@ -9,22 +9,22 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/GameLevels/Level_01_01.unity
+    path: Assets/Scenes/GameLevels/Level_01 rooms/Level_01_01.unity
     guid: 158c9a2ca07d48b4599b91c7ccd29705
   - enabled: 1
-    path: Assets/Scenes/GameLevels/Level_01_02.unity
+    path: Assets/Scenes/GameLevels/Level_01 rooms/Level_01_02.unity
     guid: 411a363c462521b41b9824aee6ccba13
   - enabled: 1
-    path: Assets/Scenes/GameLevels/Level_01_03.unity
+    path: Assets/Scenes/GameLevels/Level_01 rooms/Level_01_03.unity
     guid: e8289598195adb74b9d6ba787bba920b
   - enabled: 1
-    path: Assets/Scenes/GameLevels/Level_01_04.unity
+    path: Assets/Scenes/GameLevels/Level_01 rooms/Level_01_04.unity
     guid: d369c8c8dda51be46857269c50d61c92
   - enabled: 1
-    path: Assets/Scenes/GameLevels/Level_01_05.unity
+    path: Assets/Scenes/GameLevels/Level_01 rooms/Level_01_06.unity
     guid: 253af7d928295424489d7c9e33f329c6
   - enabled: 1
-    path: Assets/Scenes/GameLevels/Level_01_06.unity
+    path: Assets/Scenes/GameLevels/Level_01 rooms/Level_01_07.unity
     guid: dd41379895c60bb4aafa7488ba2880fb
   - enabled: 1
     path: Assets/Scenes/GameLevels/Level_02.unity
@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameLevels/Level_10.unity
     guid: 06540ad55d4814644b73fe31899e8934
+  - enabled: 1
+    path: Assets/Scenes/GameLevels/Level_01 rooms/Level_01_05.unity
+    guid: 80c42dcca25d69847825bac2b1742627
   m_configObjects: {}

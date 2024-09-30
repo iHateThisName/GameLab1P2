@@ -27,4 +27,6 @@ public enum EnumScene {
     Level_08 = 13,
     Level_09 = 14,
     Level_010 = 15,
+    Level_01_wall = 16,
+
 }
