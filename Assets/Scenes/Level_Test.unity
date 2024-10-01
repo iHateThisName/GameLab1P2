@@ -162,6 +162,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2208338684629126664, guid: 7c2087a7f1e086b4e9fcb2589781917d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7179772475690628422, guid: 7c2087a7f1e086b4e9fcb2589781917d, type: 3}
       propertyPath: m_Name
       value: PlayerRefactor
@@ -172,7 +176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8901886395936792467, guid: 7c2087a7f1e086b4e9fcb2589781917d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -4.051
       objectReference: {fileID: 0}
     - target: {fileID: 8901886395936792467, guid: 7c2087a7f1e086b4e9fcb2589781917d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -812,7 +816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6468009069354549171, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.0073195
+      value: -4.861919
       objectReference: {fileID: 0}
     - target: {fileID: 6468009069354549171, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_LocalPosition.z

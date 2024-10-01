@@ -42,6 +42,7 @@ public class PlayerMovment : MonoBehaviour {
     [SerializeField] private bool _isGrounded;
     [SerializeField] private bool _isWalled;
     [SerializeField] private bool _isWallJumping;
+    private bool _isShrinking;
 
     //Coyote time
     [Header("Coyote Time")]
@@ -66,8 +67,11 @@ public class PlayerMovment : MonoBehaviour {
     private float _currentSpeed;  // The current speed that will be adjusted over time
     private float _accelerationRate;  // The rate at which the speed will increase
 
+    private Animator _animator;
+
     private void Start() {
         _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
         _currentSpeed = BaseSpeed; // Initialize current speed
         _accelerationRate = (MaxSpeed - BaseSpeed) / AccelerationTime;
         WallJumpDirection.Normalize();
@@ -154,6 +158,12 @@ public class PlayerMovment : MonoBehaviour {
         // Max fall speed
         if (_rb.velocity.y < MaxFallSpeed) {
             _rb.velocity = new Vector2(_rb.velocity.x, MaxFallSpeed);
+        }
+
+        //Shrink
+        if (Input.GetKeyDown(KeyCode.LeftShift) || (Input.GetKeyDown(KeyCode.S) && !_isShrinking) || (Input.GetKeyDown(KeyCode.W) && _isShrinking)) {
+            _isShrinking = !_isShrinking;
+            _animator.SetBool("isShrinking", _isShrinking);
         }
     }
     private void ResetWallJumping() {
