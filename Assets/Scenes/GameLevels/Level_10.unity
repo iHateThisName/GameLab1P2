@@ -1937,6 +1937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Exit
       objectReference: {fileID: 0}
+    - target: {fileID: 5936929724042559813, guid: 28b30e9f61ba5fd45842a47e4d5191af, type: 3}
+      propertyPath: scene
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 9019068137995773825, guid: 28b30e9f61ba5fd45842a47e4d5191af, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.87
