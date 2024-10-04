@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 //Private fields: _isPrivate
@@ -67,14 +68,14 @@ public class PlayerMovment : MonoBehaviour {
 
     private TimerScript _timerScript;
     private Animator _animator;
-    private SpriteRenderer _spriteFlip;
+    private SpriteRenderer[] _spriteFlip;
 
     private bool _isPlayerFacingRight = false;
 
     private void Start() {
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
-        _spriteFlip = GetComponentInChildren<SpriteRenderer>();
+        _spriteFlip = GetComponentsInChildren<SpriteRenderer>();
         _timerScript = GetComponent<TimerScript>();
         _currentSpeed = BaseSpeed; // Initialize current speed
         _accelerationRate = (MaxSpeed - BaseSpeed) / AccelerationTime;
@@ -88,10 +89,14 @@ public class PlayerMovment : MonoBehaviour {
 
         if (horizontalInput != 0) {
             if (horizontalInput > 0.1f && !_isPlayerFacingRight) {
-                _spriteFlip.flipX = true;
+                foreach (var s in _spriteFlip) {
+                    s.flipX = true;
+                }
                 _isPlayerFacingRight = true;
             } else if (horizontalInput < -0.1f && _isPlayerFacingRight) {
-                _spriteFlip.flipX = false;
+                foreach (var s in _spriteFlip) {
+                    s.flipX = false;
+                }
                 _isPlayerFacingRight = false;
             }
         }
