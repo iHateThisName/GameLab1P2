@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour {
     public void Death(GameObject player) {
         if (!IsPlayerDead) {
             IsPlayerDead = true;
-            _camera.gameObject.transform.SetParent(null);
+            if (_camera != null) _camera.gameObject.transform.SetParent(null);
 
             Destroy(player);
             Destroy(GetTimerCanvasInScene());
