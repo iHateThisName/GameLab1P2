@@ -222,6 +222,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.2784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.2784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.2784314
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (32)
@@ -2713,6 +2725,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.48235297
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (37)
@@ -4008,6 +4032,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.48235297
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (34)
@@ -6702,6 +6738,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.48235297
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (21)
@@ -10486,6 +10534,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.48235297
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (19)
@@ -12248,6 +12308,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.48235297
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (52)
@@ -18173,6 +18245,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.48235297
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (31)
@@ -19075,6 +19159,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.48235297
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (25)
@@ -20611,6 +20707,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.48235297
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (29)
@@ -23346,6 +23454,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.48235297
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (20)
@@ -25451,6 +25571,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.48235297
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (53)
@@ -26361,6 +26493,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408233470}
     m_Modifications:
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.b
+      value: 0.48235297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034922753184762198, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
+      propertyPath: m_Color.r
+      value: 0.48235297
+      objectReference: {fileID: 0}
     - target: {fileID: 6037069283868271221, guid: 8b76429733cf43046ab09e2d23b501c4, type: 3}
       propertyPath: m_Name
       value: GPlatform (35)
