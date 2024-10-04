@@ -161,7 +161,7 @@ public class PlayerMovment : MonoBehaviour {
         }
 
         //Shrink
-        if (Input.GetKeyDown(KeyCode.LeftShift) || (Input.GetKeyDown(KeyCode.S) && !_isShrinking) || (Input.GetKeyDown(KeyCode.W) && _isShrinking)) {
+        if (Input.GetKeyDown(KeyCode.LeftShift)) {
             _isShrinking = !_isShrinking;
             _animator.SetBool("isShrinking", _isShrinking);
         }
