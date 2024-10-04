@@ -55,10 +55,13 @@ public class GameManager : MonoBehaviour {
         if (!IsPlayerDead) {
             IsPlayerDead = true;
             _camera.gameObject.transform.SetParent(null);
+
             Destroy(player);
+            Destroy(GetTimerCanvasInScene());
             Respawn();
         }
     }
 
     private void GetCameraInScene() => _camera = GameObject.FindGameObjectWithTag("MainCamera")?.GetComponent<Camera>();
+    private GameObject GetTimerCanvasInScene() => GameObject.FindGameObjectWithTag("TimerText")?.transform.parent.gameObject;
 }
