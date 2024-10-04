@@ -62,16 +62,20 @@ public class PlayerMovment : MonoBehaviour {
     [SerializeField] private Vector2 WallJumpDirection = new Vector2(1f, 1.5f);
     [SerializeField] private float WallSlideSpeed = 2f;
 
-    [SerializeField] private TimerScript _timerScript;
-
     private float _currentSpeed;  // The current speed that will be adjusted over time
     private float _accelerationRate;  // The rate at which the speed will increase
 
+    private TimerScript _timerScript;
     private Animator _animator;
+    private SpriteRenderer _spriteFlip;
+
+    private bool _isPlayerFacingRight = false;
 
     private void Start() {
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _spriteFlip = GetComponentInChildren<SpriteRenderer>();
+        _timerScript = GetComponent<TimerScript>();
         _currentSpeed = BaseSpeed; // Initialize current speed
         _accelerationRate = (MaxSpeed - BaseSpeed) / AccelerationTime;
         WallJumpDirection.Normalize();
@@ -80,11 +84,22 @@ public class PlayerMovment : MonoBehaviour {
     private void Update() {
         _isGrounded = Physics2D.OverlapCircle(GroundCheckPoint.position, 0.1f, AllowJumpMask);
         _isWalled = Physics2D.OverlapCircle(LeftWallCheckPoint.position, 0.2f, AllowWallJumpMask) || Physics2D.OverlapCircle(RightWallCheckPoint.position, 0.2f, AllowWallJumpMask);
+        float horizontalInput = Input.GetAxisRaw("Horizontal");
+
+        if (horizontalInput != 0) {
+            if (horizontalInput > 0.1f && !_isPlayerFacingRight) {
+                _spriteFlip.flipX = true;
+                _isPlayerFacingRight = true;
+            } else if (horizontalInput < -0.1f && _isPlayerFacingRight) {
+                _spriteFlip.flipX = false;
+                _isPlayerFacingRight = false;
+            }
+        }
 
         // Set Current Speed
         if (_isGrounded && _isWalled) {
             _currentSpeed = BaseSpeed;
-        } else if (Input.GetAxisRaw("Horizontal") != 0 && !_isWallJumping) {
+        } else if (horizontalInput != 0 && !_isWallJumping) {
             //Accumelating Speed
             _currentSpeed += _accelerationRate * Time.deltaTime;  // Gradually increase speed
 

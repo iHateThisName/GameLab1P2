@@ -301,7 +301,6 @@ MonoBehaviour:
   WallJumpForce: 15
   WallJumpDirection: {x: 0.8, y: 1.5}
   WallSlideSpeed: 2
-  _timerScript: {fileID: 4189544631779694076}
 --- !u!114 &4189544631779694076
 MonoBehaviour:
   m_ObjectHideFlags: 0
