@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/GameLevels/Level_01 rooms/Level_01_06.unity
     guid: 253af7d928295424489d7c9e33f329c6
   - enabled: 1
-    path: Assets/Scenes/GameLevels/Level_01 rooms/Level_01_07.unity
+    path: Assets/Scenes/GameLevels/SecretScenes/Level_01_07.unity
     guid: dd41379895c60bb4aafa7488ba2880fb
   - enabled: 1
     path: Assets/Scenes/GameLevels/Level_02.unity
@@ -74,4 +74,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameLevels/Level_14.unity
     guid: 52500a7c763bc2843a8e87aac6497020
+  - enabled: 1
+    path: Assets/Scenes/GameLevels/Level_01 rooms/Level_01_ERROR.unity
+    guid: 0fbe9af628b8f254799938befb63687c
   m_configObjects: {}

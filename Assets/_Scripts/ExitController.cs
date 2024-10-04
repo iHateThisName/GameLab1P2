@@ -17,7 +17,7 @@ public enum EnumScene {
     Level_01_03 = 3,
     Level_01_04 = 4,
     Level_01_05 = 5,
-    Level_01_06 = 6,
+    Level_01_06 = 23,
     Level_02 = 7,
     Level_03 = 8,
     Level_04 = 9,
@@ -34,5 +34,5 @@ public enum EnumScene {
     Level_13 = 20,
     Level_11 = 21,
     Level_14 = 22,
-    
+    Secret_error = 6
 }
