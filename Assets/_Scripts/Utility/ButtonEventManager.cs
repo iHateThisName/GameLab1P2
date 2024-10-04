@@ -14,8 +14,8 @@ public class ButtonEventManager : MonoBehaviour {
     public void OnMainMenu() => GameManager.Instance.LoadScene(EnumScene.MainMenu);
 
     public void OnLevel01_01() => GameManager.Instance.LoadScene(EnumScene.Level_01_01);
-    public void OnLevel01_02() => GameManager.Instance.LoadScene(EnumScene.Level_01_02);
     public void OnLevel02() => GameManager.Instance.LoadScene(EnumScene.Level_02);
     public void OnLevel03() => GameManager.Instance.LoadScene(EnumScene.Level_03);
     public void OnLevel04() => GameManager.Instance.LoadScene(EnumScene.Level_04);
+    public void OnLevel05() => GameManager.Instance.LoadScene(EnumScene.Level_05);
 }
